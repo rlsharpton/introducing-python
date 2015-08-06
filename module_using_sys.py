@@ -6,4 +6,7 @@ print("the command line arguments are:")
 for i in sys.argv:
     print(i)
 
-print("\n\nThe PYTHONPATH is", sys.path, "\n")
+def path_Print():
+    print(sys.path)
+
+print('The PYTHONPATH is', sys.path)
